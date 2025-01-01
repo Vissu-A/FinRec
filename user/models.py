@@ -76,8 +76,8 @@ class FinRecUser(AbstractBaseUser, PermissionsMixin):
         blank=True,
         null=True,
         storage=S3Boto3Storage(
-            bucket_name='meme1',
-            region_name='us-east-1'
+            bucket_name='finrec',
+            region_name='us-east-2'
         ),
         upload_to='user/profile'
     )

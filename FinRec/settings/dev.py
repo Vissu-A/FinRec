@@ -48,7 +48,7 @@ CELERY_BROKER_TRANSPORT_OPTIONS = {
     'region': 'us-east-1',
     'polling_interval': 0.3,
     'visibility_timeout': 60,
-    'queue_name_prefix': 'MeMe-',
+    'queue_name_prefix': 'finrec-',
     'wait_time_seconds': 15
 }
 

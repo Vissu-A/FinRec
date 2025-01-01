@@ -1,3 +1,9 @@
+'''
+Registering models on admin site.
+'''
+
 from django.contrib import admin
 
-# Register your models here.
+from .models import FinRecUser
+
+admin.site.register(FinRecUser)
